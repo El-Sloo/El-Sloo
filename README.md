@@ -17,7 +17,7 @@
 </p>
 
 Estudiante de Actuaría y Ciencia de Datos en la Universidad Autónoma de Guadalajara (UAG). 
-Combino bases en SQL, Java, Excel y Power BI con un enfoque creciente en Machine Learning: 
+Combino bases en SQL, Java, Python, Excel y Power BI con un enfoque creciente en Machine Learning: 
 modelos supervisados de predicción (Random Forest, XGBoost, Gradient Boosting, SVM, GLMs ajustados 
 por máxima verosimilitud) y técnicas de reducción de dimensionalidad y agrupamiento (PCA, Kernel 
 PCA, LDA, K-Means). Mi objetivo es aplicar este conocimiento al sector Fintech e Insurtech, donde la 
