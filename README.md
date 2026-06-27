@@ -16,7 +16,13 @@
   </a>
 </p>
 
-Estudiante de Actuaría y Ciencia de Datos en la Universidad Autónoma de Guadalajara (UAG). Me interesa el modelado predictivo aplicado a seguros y finanzas — combinando estadística actuarial clásica (GLM, máxima verosimilitud) con Machine Learning, para construir herramientas de tarificación más precisas.
+Estudiante de Actuaría y Ciencia de Datos en la Universidad Autónoma de Guadalajara (UAG). 
+Combino bases en SQL, Java, Excel y Power BI con un enfoque creciente en Machine Learning: 
+modelos supervisados de predicción (Random Forest, XGBoost, Gradient Boosting, SVM, GLMs ajustados 
+por máxima verosimilitud) y técnicas de reducción de dimensionalidad y agrupamiento (PCA, Kernel 
+PCA, LDA, K-Means). Mi objetivo es aplicar este conocimiento al sector Fintech e Insurtech, donde la 
+estadística actuarial tradicional y el análisis predictivo de datos pueden complementarse para 
+mejorar la tarificación de riesgos.
 
 ## Tech Stack
 
