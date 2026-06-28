@@ -17,7 +17,7 @@
 </p>
 
 Actuarial Science and Data Science student at Universidad Autónoma de Guadalajara (UAG). 
-I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a growing focus on Machine Learning. My expertise includes supervised predictive models (Random Forest, XGBoost, Gradient Boosting, SVM, and Maximum Likelihood-fitted GLMs) as well as dimensionality reduction and clustering techniques (PCA, Kernel PCA, LDA, and K-Means). My goal is to bridge traditional actuarial statistics with predictive analytics to optimize risk pricing and quantitative solutions within the Fintech and Insurtech industries.
+I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a growing focus on Machine Learning. My expertise includes supervised predictive models (Random Forest, XGBoost, Gradient Boosting, SVM, and Maximum Likelihood-fitted GLMs) as well as dimensionality reduction and clustering techniques (PCA, Kernel PCA, and K-Means). My goal is to bridge traditional actuarial statistics with predictive analytics to optimize risk pricing and quantitative solutions within the Fintech and Insurtech industries.
 
 ## 🛠️ Technologies & Tools
 
