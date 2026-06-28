@@ -75,8 +75,6 @@ I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a gr
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=El-Sloo&repo=REPO-NAME&theme=tokyonight" />
 </a>
 
-## GitHub Stats
-
 <p align="left">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=El-Sloo&show_icons=true&locale=en&layout=compact&theme=tokyonight" height="192px"/>
 </p>
