@@ -19,9 +19,10 @@
 Actuarial Science and Data Science student at Universidad Autónoma de Guadalajara (UAG). 
 I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a growing focus on Machine Learning. My expertise includes supervised predictive models (Random Forest, XGBoost, Gradient Boosting, SVM, and Maximum Likelihood-fitted GLMs) as well as dimensionality reduction and clustering techniques (PCA, Kernel PCA, LDA, and K-Means). My goal is to bridge traditional actuarial statistics with predictive analytics to optimize risk pricing and quantitative solutions within the Fintech and Insurtech industries.
 
-## Tech Stack
+## 🛠️ Technologies & Tools
 
-<p align="center">
+### 🐍 Data Science & Machine Learning
+<p align="left">
   <a href="https://www.python.org" target="_blank">
     <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
   </a>
@@ -40,8 +41,34 @@ I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a gr
   <a href="https://jupyter.org/" target="_blank">
     <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white">
   </a>
+</p>
+
+### 🗄️ Databases & Core Development
+<p align="left">
+  <a href="https://www.mysql.com/" target="_blank">
+    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+  </a>
+  <a href="https://www.postgresql.org/" target="_blank">
+    <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white">
+  </a>
+  <a href="https://www.oracle.com/java/" target="_blank">
+    <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
+  </a>
   <a href="https://git-scm.com/" target="_blank">
-    <img src="https://img.shields.io/badge/git-F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="git"/>
+    <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
+  </a>
+</p>
+
+### 📊 Business Intelligence & Actuarial Reporting
+<p align="left">
+  <a href="https://powerbi.microsoft.com/" target="_blank">
+    <img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
+  </a>
+  <a href="https://www.microsoft.com/excel" target="_blank">
+    <img alt="Excel" src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
+  </a>
+  <a href="https://www.latex-project.org/" target="_blank">
+    <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white">
   </a>
 </p>
 
