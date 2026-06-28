@@ -4,10 +4,14 @@
   <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuarial+Science+%2B+Data+Science+%40+UAG;Building+toward+Fintech+%26+Insurtech" /></a>
 </p>
 
-<p align="center">
-  <a href="mailto:sebastianrg.sw@gmail.com" target="_blank">
+<p align="center">¡
+  <a href="mailto:sebastianrg.sw@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
+  <br>
+  <strong>sebastianrg.sw@gmail.com</strong>
+  <br>
+</p>
   <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
