@@ -71,7 +71,7 @@ I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a gr
 
 ## Featured Projects
 
-<a href="https://github.com/El-Sloo/REPO-NAME">
+<a href="https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing">
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=El-Sloo&repo=glm-vs-ml-actuarial-pricing&theme=tokyonight" />
 </a>
 
