@@ -1,14 +1,14 @@
 ## Hi, I'm David Sebastián 👋
 
 <p>
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuar%C3%ADa+%2B+Ciencia+de+Datos+%40+UAG;Building+toward+Fintech+%26+Insurtech" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuarial+Science+%2B+Data+Science+%40+UAG;Building+toward+Fintech+%26+Insurtech" /></a>
 </p>
 
 <p align="center">
   <a href="mailto:sebastianrg.sw@gmail.com" target="_blank">
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
   </a>
-  <a href="https://www.linkedin.com/in/TU-USUARIO-LINKEDIN" target="_blank">
+  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME" target="_blank">
     <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
   </a>
   <a href="https://instagram.com/david.rgman" target="_blank">
@@ -16,13 +16,8 @@
   </a>
 </p>
 
-Estudiante de Actuaría y Ciencia de Datos en la Universidad Autónoma de Guadalajara (UAG). 
-Combino bases en SQL, Java, Python, Excel y Power BI con un enfoque creciente en Machine Learning: 
-modelos supervisados de predicción (Random Forest, XGBoost, Gradient Boosting, SVM, GLMs ajustados 
-por máxima verosimilitud) y técnicas de reducción de dimensionalidad y agrupamiento (PCA, Kernel 
-PCA, LDA, K-Means). Mi objetivo es aplicar este conocimiento al sector Fintech e Insurtech, donde la 
-estadística actuarial tradicional y el análisis predictivo de datos pueden complementarse para 
-mejorar la tarificación de riesgos.
+Actuarial Science and Data Science student at Universidad Autónoma de Guadalajara (UAG). 
+I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a growing focus on Machine Learning. My expertise includes supervised predictive models (Random Forest, XGBoost, Gradient Boosting, SVM, and Maximum Likelihood-fitted GLMs) as well as dimensionality reduction and clustering techniques (PCA, Kernel PCA, LDA, and K-Means). My goal is to bridge traditional actuarial statistics with predictive analytics to optimize risk pricing and quantitative solutions within the Fintech and Insurtech industries.
 
 ## Tech Stack
 
@@ -50,10 +45,10 @@ mejorar la tarificación de riesgos.
   </a>
 </p>
 
-## Proyectos destacados
+## Featured Projects
 
-<a href="https://github.com/El-Sloo/NOMBRE-DEL-REPO">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=El-Sloo&repo=NOMBRE-DEL-REPO&theme=tokyonight" />
+<a href="https://github.com/El-Sloo/REPO-NAME">
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=El-Sloo&repo=REPO-NAME&theme=tokyonight" />
 </a>
 
 ## GitHub Stats
