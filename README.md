@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="banner.jpg" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering. Diagram of the ML lifecycle: data, training, deployment and monitoring, with automated retraining through CI/CD.">
+</p>
+
 ## Hi, I'm David Sebastián 👋
 
 <p>
@@ -17,6 +21,40 @@
 </p>
 
 I'm an Actuarial Science and Data Science student at UAG on my way to becoming a Machine Learning Engineer. I don't stop at the notebook: I build working applications people can actually use, like a desktop actuarial calculator I co-built in Python. Now I'm focused on the engineering side of ML: serving models through APIs, packaging them with Docker, and setting up CI/CD pipelines with experiment tracking, monitoring and automated retraining, so a model keeps working after it ships.
+
+## Featured Projects
+
+### 🎮 +RR: Valorant rank rating predictor (in progress)
+
+<!-- Cuando subas el repo, envuelve la tarjeta en un link: <a href="https://github.com/El-Sloo/NOMBRE-DEL-REPO"><img src="valorant-card.svg" alt="+RR"></a> -->
+<img src="valorant-card.svg" alt="+RR, Valorant rank rating predictor">
+
+**How much RR will this match give you, and why?** +RR predicts the Rank Rating a player wins or loses in each Valorant ranked match and breaks it down into the reasons behind it, so players know what actually moved their rank.
+
+- **Data:** my own dataset of real ranked matches pulled from a game API: damage dealt and taken, kills, deaths, economy, rank, party size, round margin, match result and the RR change
+- **Model:** two stages. A fixed value for win vs. loss, plus an XGBoost model that learns the adjustment from damage per round, round margin, rank gap, party penalty, AFK rounds and rank tier. Average error is about 1.6 RR
+- **Why two stages:** a single model mixed up "I won" with everything else, and SHAP gave some variables the wrong sign. Separating the match result fixed the explanations without losing accuracy
+- **Explanations:** SHAP turns every prediction into whole-number bars that add up exactly to the player's real RR
+- **Sanity check against the game's own rules:** the model learned a 5-stack penalty of about 5 RR, close to the 5.3 implied by the official patch notes
+- **Why my own data:** the meta and the RR system change with patches and seasons, so the model needs fresh data and regular retraining (distribution shift)
+- **Next, the MLOps side:** a Streamlit front end on a FastAPI service packaged with Docker, and a GitHub Actions CI/CD pipeline that collects new matches, retrains, logs every run in MLflow and only promotes the new model if it beats the one in production
+
+**Status**
+- [x] Match data collection from a game API
+- [x] Exploratory analysis and feature engineering
+- [x] Two-stage RR model (XGBoost) with SHAP explanations
+- [ ] Reusable preprocessing pipeline
+- [ ] App (Streamlit + FastAPI) in Docker
+- [ ] CI/CD retraining pipeline (GitHub Actions + MLflow)
+
+### More projects
+
+<!-- Cuando subas los repos, envuelve cada tarjeta en un link como la de glm-card -->
+<p>
+  <a href="https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing"><img width="49%" src="glm-card.svg" alt="glm-vs-ml-actuarial-pricing"></a>
+  <img width="49%" src="calculadora-card.svg" alt="SuperCalculadoraActuarial">
+  <img width="49%" src="bitcoin-card.svg" alt="Bitcoin Markov-Switching GBM">
+</p>
 
 ## 🛠️ Technologies & Tools
 
@@ -52,19 +90,3 @@ I'm an Actuarial Science and Data Science student at UAG on my way to becoming a
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
   <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
-
-## Featured Projects
-
-**[🚗 GLM vs. Machine Learning: claim frequency modeling](https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing)**  
-Can a Random Forest replace the GLMs insurers use? Poisson and Negative Binomial built from scratch vs. a Random Forest on 679,513 French auto policies. The forest reached a 1.003 predicted/actual ratio.
-
-<!-- Cuando subas el repo, cambia la línea de abajo por: **[🧮 SuperCalculadoraActuarial](https://github.com/El-Sloo/NOMBRE-DEL-REPO)** -->
-**🧮 SuperCalculadoraActuarial**  
-Desktop app built with Python, Dear PyGui and pandas that computes life insurance and annuity premiums from a mortality table. Co-built with a classmate.
-
-<!-- Cuando subas el repo, cambia la línea de abajo por: **[₿ Bitcoin regimes with a Markov-switching GBM](https://github.com/El-Sloo/NOMBRE-DEL-REPO)** -->
-**₿ Bitcoin regimes with a Markov-switching GBM**  
-Five market regimes, a Markov chain of how Bitcoin switches between them, and a 100-path Monte Carlo that put the real 15-day price inside its 90% interval. Written up as a research paper.
-
-**🎮 Valorant Player Intelligence** (in progress)  
-End-to-end ML app on match data I collect myself: player archetypes (PCA + K-Means), match outcome prediction (XGBoost + SHAP) and an app that gives each player specific advice. Because the meta shifts with every patch, the plan is a pipeline that retrains the model automatically.
