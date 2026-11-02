@@ -2,7 +2,7 @@
 
 <p>
 
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuarial+Science+%2B+Data+Science;Building+toward+Fintech+%26+Insurtech" /></a>
+  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuarial+Science+%2B+Data+Science;Building+ML+apps+that+actually+ship" /></a>
 </p>
 <p align="center">
   <a href="mailto:sebastianrg.sw@gmail.com" target="_blank">
@@ -16,7 +16,7 @@
   </a>
 </p>
 
-I'm an Actuarial Science and Data Science student at UAG working toward becoming a Machine Learning Engineer. I want to build models that don't stay in a notebook: trained on solid data, validated honestly, and deployed as products people actually use. My actuarial background gives me a strong base in statistics and risk modeling, and I'm especially interested in applying ML to fintech and insurtech.
+I'm an Actuarial Science and Data Science student at UAG on my way to becoming a Machine Learning Engineer. I don't stop at the notebook: I build working applications people can actually use, like a desktop actuarial calculator I co-built in Python. Now I'm focused on the engineering side of ML: serving models through APIs, packaging them with Docker, and setting up CI/CD pipelines with experiment tracking, monitoring and automated retraining, so a model keeps working after it ships.
 
 ## 🛠️ Technologies & Tools
 
@@ -31,12 +31,21 @@ I'm an Actuarial Science and Data Science student at UAG working toward becoming
   <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
 </p>
 
-### 🚀 ML Engineering (currently learning)
+### 🖥️ Applications
+<p align="left">
+  <img alt="Dear PyGui" src="https://img.shields.io/badge/Dear_PyGui-3776AB?style=for-the-badge&logo=python&logoColor=white">
+</p>
+
+### 🚀 ML Engineering & MLOps (currently learning)
 <p align="left">
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
   <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white">
+  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
+  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
 </p>
+
+`CI/CD` `Automated retraining` `Model monitoring` `Experiment tracking` `Model registry`
 
 ### 🗄️ Data & Version Control
 <p align="left">
@@ -46,6 +55,16 @@ I'm an Actuarial Science and Data Science student at UAG working toward becoming
 
 ## Featured Projects
 
-<a href="https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing">
-  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=El-Sloo&repo=glm-vs-ml-actuarial-pricing&theme=tokyonight" />
-</a>
+**[🚗 GLM vs. Machine Learning: claim frequency modeling](https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing)**  
+Can a Random Forest replace the GLMs insurers use? Poisson and Negative Binomial built from scratch vs. a Random Forest on 679,513 French auto policies. The forest reached a 1.003 predicted/actual ratio.
+
+<!-- Cuando subas el repo, cambia la línea de abajo por: **[🧮 SuperCalculadoraActuarial](https://github.com/El-Sloo/NOMBRE-DEL-REPO)** -->
+**🧮 SuperCalculadoraActuarial**  
+Desktop app built with Python, Dear PyGui and pandas that computes life insurance and annuity premiums from a mortality table. Co-built with a classmate.
+
+<!-- Cuando subas el repo, cambia la línea de abajo por: **[₿ Bitcoin regimes with a Markov-switching GBM](https://github.com/El-Sloo/NOMBRE-DEL-REPO)** -->
+**₿ Bitcoin regimes with a Markov-switching GBM**  
+Five market regimes, a Markov chain of how Bitcoin switches between them, and a 100-path Monte Carlo that put the real 15-day price inside its 90% interval. Written up as a research paper.
+
+**🎮 Valorant Player Intelligence** (in progress)  
+End-to-end ML app on match data I collect myself: player archetypes (PCA + K-Means), match outcome prediction (XGBoost + SHAP) and an app that gives each player specific advice. Because the meta shifts with every patch, the plan is a pipeline that retrains the model automatically.
