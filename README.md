@@ -1,11 +1,10 @@
 <p align="center">
   <img src="banner.svg?v=3" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering">
+  <img src="about.svg?v=1" width="100%" alt="About me. Hi! I'm David, an Actuarial Science and Data Science student from Mexico who likes turning data into things that work. My goal is to build tools and apps people use every day, software that solves real problems, with machine learning doing the hard part behind the scenes.">
 </p>
 
-I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm working toward Machine Learning Engineering. I like taking a model past the notebook: clean data pipelines, models I can actually explain, and tools people can use.
-
 <!-- Cambia TU-USUARIO-AQUÍ por tu URL real de LinkedIn -->
-<p>
+<p align="center">
   <a href="mailto:sebastianrg.sw@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
   <a href="https://www.linkedin.com/in/TU-USUARIO-AQUÍ"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
 </p>
