@@ -3,12 +3,6 @@
   <img src="about.svg?v=1" width="100%" alt="About me. Hi! I'm David, an Actuarial Science and Data Science student from Mexico who likes turning data into things that work. My goal is to build tools and apps people use every day, software that solves real problems, with machine learning doing the hard part behind the scenes.">
 </p>
 
-<!-- Cambia TU-USUARIO-AQUÍ por tu URL real de LinkedIn -->
-<p align="center">
-  <a href="mailto:sebastianrg.sw@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://www.linkedin.com/in/TU-USUARIO-AQUÍ"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
-</p>
-
 ## Tools
 
 <p><img src="models.svg?v=3" width="100%" alt="Models I work with: regression (GLMs), clustering (K-Means + PCA), classification (logistic regression, SVM) and tree models (Random Forest, XGBoost)"></p>
@@ -60,3 +54,7 @@ Learning now:
 </p>
 
 If you're working on ML for games, or anything with a lot of data behind it, I'd love to chat.
+<p align="center">
+  <a href="mailto:sebastianrg.sw@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/david-sebasti%C3%A1n-rodr%C3%ADguez-guzm%C3%A1n-8a464b421/" alt="LinkedIn"></a>
+</p>
