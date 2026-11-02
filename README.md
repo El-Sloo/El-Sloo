@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="banner.png" width="100%" alt="David Sebastián Rodríguez Guzmán">
+  <img src="banner.svg" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering">
 </p>
-
-## Hi, I'm David Sebastián 👋
 
 I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm working toward Machine Learning Engineering. I like taking a model past the notebook: clean data pipelines, models I can actually explain, and tools people can use.
 
@@ -18,11 +16,18 @@ I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm worki
 
 **+RR** predicts how much RR you win or lose in a Valorant ranked match, and tells you why.
 
-- I collect real ranked matches through an API and build my own dataset, since the meta changes every patch
-- Two-stage XGBoost model with about 1.6 RR average error
-- SHAP splits every prediction into whole-number reasons that add up to your real RR
-- Fun check: the model learned a 5-stack penalty of about 5 RR, and the patch notes imply 5.3
-- Next up: a Streamlit app on FastAPI, packaged with Docker, and a GitHub Actions pipeline that retrains the model when a new patch drops
+- Data pipeline that pulls real ranked matches from a Valorant stats API into my own dataset
+- Two-stage XGBoost model, about 1.6 RR average error
+- SHAP breaks every prediction into reasons that add up to your real RR
+- Sanity check: the model's 5-stack penalty (~5 RR) matches the patch notes (5.3)
+
+**Roadmap**
+- [x] Data pipeline from the API
+- [x] RR model + SHAP explanations
+- [ ] Player archetypes with PCA + clustering (next)
+- [ ] Serve the model as a REST API with FastAPI, plus a Streamlit app, all in Docker
+- [ ] CI/CD with GitHub Actions: automated retraining when a patch shifts the meta, runs tracked in MLflow, and the new model only ships if it beats the current one
+- [ ] Drift monitoring to know when it's time to retrain
 
 ## Other projects
 
@@ -32,6 +37,8 @@ I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm worki
 </p>
 
 ## Tools
+
+<p><img src="models.svg" width="100%" alt="Models I work with: regression (GLMs), clustering (K-Means + PCA), classification (logistic regression, SVM), tree models (Random Forest, XGBoost), and neural nets (learning now)"></p>
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
