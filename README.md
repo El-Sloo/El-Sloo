@@ -38,7 +38,7 @@ I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm worki
 
 ## Tools
 
-<p><img src="models.svg?v=2" width="100%" alt="Models I work with: regression (GLMs), clustering (K-Means + PCA), classification (logistic regression, SVM) and tree models (Random Forest, XGBoost)"></p>
+<p><img src="models.svg?v=3" width="100%" alt="Models I work with: regression (GLMs), clustering (K-Means + PCA), classification (logistic regression, SVM) and tree models (Random Forest, XGBoost)"></p>
 
 <p>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
