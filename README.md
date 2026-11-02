@@ -16,57 +16,32 @@
   </a>
 </p>
 
-Actuarial Science and Data Science student at Universidad Autónoma de Guadalajara (UAG). 
-I combine strong foundations in SQL, Java, Python, Excel, and Power BI with a growing focus on Machine Learning. My expertise includes supervised predictive models (Random Forest, XGBoost, Gradient Boosting, SVM, and Maximum Likelihood-fitted GLMs) as well as dimensionality reduction and clustering techniques (PCA, Kernel PCA, and K-Means). My goal is to bridge traditional actuarial statistics with predictive analytics to optimize risk pricing and quantitative solutions within the Fintech and Insurtech industries.
+I'm an Actuarial Science and Data Science student at UAG working toward becoming a Machine Learning Engineer. I want to build models that don't stay in a notebook: trained on solid data, validated honestly, and deployed as products people actually use. My actuarial background gives me a strong base in statistics and risk modeling, and I'm especially interested in applying ML to fintech and insurtech.
 
 ## 🛠️ Technologies & Tools
 
-### 🐍 Data Science & Machine Learning
+### 🤖 Machine Learning
 <p align="left">
-  <a href="https://www.python.org" target="_blank">
-    <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  </a>
-  <a href="https://pandas.pydata.org/" target="_blank">
-    <img alt="Pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
-  </a>
-  <a href="https://numpy.org/" target="_blank">
-    <img alt="Numpy" src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white">
-  </a>
-  <a href="https://scikit-learn.org/" target="_blank">
-    <img alt="Scikit-learn" src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  </a>
-  <a href="https://www.statsmodels.org/" target="_blank">
-    <img alt="Statsmodels" src="https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  </a>
-  <a href="https://jupyter.org/" target="_blank">
-    <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white">
-  </a>
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
+  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white">
+  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
+  <img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge">
+  <img alt="statsmodels" src="https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
 </p>
 
-### 🗄️ Databases & Core Development
+### 🚀 ML Engineering (currently learning)
 <p align="left">
-  <a href="https://www.mysql.com/" target="_blank">
-    <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
-  </a>
-  <a href="https://www.oracle.com/java/" target="_blank">
-    <img alt="Java" src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white">
-  </a>
-  <a href="https://git-scm.com/" target="_blank">
-    <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  </a>
+  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
+  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white">
 </p>
 
-### 📊 Business Intelligence & Actuarial Reporting
+### 🗄️ Data & Version Control
 <p align="left">
-  <a href="https://powerbi.microsoft.com/" target="_blank">
-    <img alt="Power BI" src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black">
-  </a>
-  <a href="https://www.microsoft.com/excel" target="_blank">
-    <img alt="Excel" src="https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white">
-  </a>
-  <a href="https://www.latex-project.org/" target="_blank">
-    <img alt="LaTeX" src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white">
-  </a>
+  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
 </p>
 
 ## Featured Projects
