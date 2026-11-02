@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="banner.svg" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering">
+  <img src="banner.svg?v=3" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering">
 </p>
 
 I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm working toward Machine Learning Engineering. I like taking a model past the notebook: clean data pipelines, models I can actually explain, and tools people can use.
