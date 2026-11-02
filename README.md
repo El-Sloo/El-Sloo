@@ -1,92 +1,56 @@
 <p align="center">
-  <img src="banner.jpg" width="100%" alt="David Sebastián Rodríguez Guzmán, Machine Learning Engineering. Diagram of the ML lifecycle: data, training, deployment and monitoring, with automated retraining through CI/CD.">
+  <img src="banner.png" width="100%" alt="David Sebastián Rodríguez Guzmán">
 </p>
 
 ## Hi, I'm David Sebastián 👋
 
+I study Actuarial Science and Data Science in Guadalajara, Mexico, and I'm working toward Machine Learning Engineering. I like taking a model past the notebook: clean data pipelines, models I can actually explain, and tools people can use.
+
+<!-- Cambia TU-USUARIO-AQUÍ por tu URL real de LinkedIn -->
 <p>
-
-  <a href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=abcdef&size=20&lines=Welcome+to+my+GitHub+Profile!;Actuarial+Science+%2B+Data+Science;Building+ML+apps+that+actually+ship" /></a>
-</p>
-<p align="center">
-  <a href="mailto:sebastianrg.sw@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/>
-  </a>
-  <a href="https://www.linkedin.com/in/TU-USUARIO-AQUÍ" target="_blank">
-    <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">
-  </a>
-  <a href="https://instagram.com/david.rgman" target="_blank">
-    <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" alt="Instagram"/>
-  </a>
+  <a href="mailto:sebastianrg.sw@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://www.linkedin.com/in/TU-USUARIO-AQUÍ"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logoColor=white" alt="LinkedIn"></a>
 </p>
 
-I'm an Actuarial Science and Data Science student at UAG on my way to becoming a Machine Learning Engineer. I don't stop at the notebook: I build working applications people can actually use, like a desktop actuarial calculator I co-built in Python. Now I'm focused on the engineering side of ML: serving models through APIs, packaging them with Docker, and setting up CI/CD pipelines with experiment tracking, monitoring and automated retraining, so a model keeps working after it ships.
+## What I'm building
 
-## Featured Projects
+<img width="400" src="valorant-card.png" alt="+RR, Valorant rank rating predictor">
 
-### 🎮 +RR: Valorant rank rating predictor (in progress)
+**+RR** predicts how much RR you win or lose in a Valorant ranked match, and tells you why.
 
-<!-- Cuando subas el repo, envuelve la tarjeta en un link: <a href="https://github.com/El-Sloo/NOMBRE-DEL-REPO"><img src="valorant-card.svg" alt="+RR"></a> -->
-<img src="valorant-card.svg" alt="+RR, Valorant rank rating predictor">
+- I collect real ranked matches through an API and build my own dataset, since the meta changes every patch
+- Two-stage XGBoost model with about 1.6 RR average error
+- SHAP splits every prediction into whole-number reasons that add up to your real RR
+- Fun check: the model learned a 5-stack penalty of about 5 RR, and the patch notes imply 5.3
+- Next up: a Streamlit app on FastAPI, packaged with Docker, and a GitHub Actions pipeline that retrains the model when a new patch drops
 
-**How much RR will this match give you, and why?** +RR predicts the Rank Rating a player wins or loses in each Valorant ranked match and breaks it down into the reasons behind it, so players know what actually moved their rank.
+## Other projects
 
-- **Data:** my own dataset of real ranked matches pulled from a game API: damage dealt and taken, kills, deaths, economy, rank, party size, round margin, match result and the RR change
-- **Model:** two stages. A fixed value for win vs. loss, plus an XGBoost model that learns the adjustment from damage per round, round margin, rank gap, party penalty, AFK rounds and rank tier. Average error is about 1.6 RR
-- **Why two stages:** a single model mixed up "I won" with everything else, and SHAP gave some variables the wrong sign. Separating the match result fixed the explanations without losing accuracy
-- **Explanations:** SHAP turns every prediction into whole-number bars that add up exactly to the player's real RR
-- **Sanity check against the game's own rules:** the model learned a 5-stack penalty of about 5 RR, close to the 5.3 implied by the official patch notes
-- **Why my own data:** the meta and the RR system change with patches and seasons, so the model needs fresh data and regular retraining (distribution shift)
-- **Next, the MLOps side:** a Streamlit front end on a FastAPI service packaged with Docker, and a GitHub Actions CI/CD pipeline that collects new matches, retrains, logs every run in MLflow and only promotes the new model if it beats the one in production
-
-**Status**
-- [x] Match data collection from a game API
-- [x] Exploratory analysis and feature engineering
-- [x] Two-stage RR model (XGBoost) with SHAP explanations
-- [ ] Reusable preprocessing pipeline
-- [ ] App (Streamlit + FastAPI) in Docker
-- [ ] CI/CD retraining pipeline (GitHub Actions + MLflow)
-
-### More projects
-
-<!-- Cuando subas los repos, envuelve cada tarjeta en un link como la de glm-card -->
 <p>
-  <a href="https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing"><img width="49%" src="glm-card.svg" alt="glm-vs-ml-actuarial-pricing"></a>
-  <img width="49%" src="calculadora-card.svg" alt="SuperCalculadoraActuarial">
-  <img width="49%" src="bitcoin-card.svg" alt="Bitcoin Markov-Switching GBM">
+  <a href="https://github.com/El-Sloo/glm-vs-ml-actuarial-pricing"><img width="49%" src="glm-card.png" alt="GLM vs. machine learning for claim frequency"></a>
+  <img width="49%" src="bitcoin-card.png" alt="Bitcoin regimes with a Markov-switching GBM">
 </p>
 
-## 🛠️ Technologies & Tools
+## Tools
 
-### 🤖 Machine Learning
-<p align="left">
-  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Pandas" src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white">
-  <img alt="NumPy" src="https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white">
-  <img alt="scikit-learn" src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-  <img alt="XGBoost" src="https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge">
-  <img alt="statsmodels" src="https://img.shields.io/badge/statsmodels-3776AB?style=for-the-badge&logo=python&logoColor=white">
-  <img alt="Jupyter" src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white">
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas">
+  <img src="https://img.shields.io/badge/NumPy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn">
+  <img src="https://img.shields.io/badge/XGBoost-189FDD?style=for-the-badge" alt="XGBoost">
+  <img src="https://img.shields.io/badge/SHAP-FF0D57?style=for-the-badge" alt="SHAP">
+  <img src="https://img.shields.io/badge/SQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" alt="SQL">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
 </p>
 
-### 🖥️ Applications
-<p align="left">
-  <img alt="Dear PyGui" src="https://img.shields.io/badge/Dear_PyGui-3776AB?style=for-the-badge&logo=python&logoColor=white">
+Learning now:
+
+<p>
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI">
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+  <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white" alt="MLflow">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
 </p>
 
-### 🚀 ML Engineering & MLOps (currently learning)
-<p align="left">
-  <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white">
-  <img alt="MLflow" src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white">
-  <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white">
-  <img alt="Streamlit" src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white">
-</p>
-
-`CI/CD` `Automated retraining` `Model monitoring` `Experiment tracking` `Model registry`
-
-### 🗄️ Data & Version Control
-<p align="left">
-  <img alt="MySQL" src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white">
-  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white">
-</p>
+If you're working on ML for games, or anything with a lot of data behind it, I'd love to chat.
